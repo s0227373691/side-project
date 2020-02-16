@@ -1,0 +1,92 @@
+body {
+    overflow: hidden;
+    nav.menu_ {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        background: rgb(233, 129, 32);
+
+        .search_ {
+            display: flex;
+            align-items: center;
+            background: rgb(199, 181, 164);
+
+            &:hover {
+                background: rgba(199, 181, 164, 0);
+            }
+
+            &:active {
+                background: rgb(199, 181, 164);
+            }
+
+            .search_input {
+                padding: 10px;
+                flex: auto;
+
+                input {
+                    width: 100%;
+                    height: 25px;
+                    padding: 3px;
+                    border-radius: 5px;
+                    outline: none;
+
+
+                }
+
+            }
+
+            svg {
+                cursor: pointer;
+
+            }
+
+        }
+
+        ul.portfolio_ {
+            width: 100%;
+            background-color: rgb(255, 166, 0);
+            overflow: auto;
+
+            li {
+                width: 100%;
+                padding: 10px 10px;
+                box-sizing: border-box;
+
+                &:hover {
+                    border-radius: 5px;
+                    cursor: pointer;
+                    background-color: rgb(255, 204, 110);
+                }
+
+                a {
+
+                    &:visited {
+                        color: black;
+                    }
+                }
+            }
+        }
+
+        div.author_ {
+            width: 100%;
+            height: 200px;
+            padding: 15px;
+            margin-top: auto;
+            border-top: 2px solid white;
+            h1 {
+                padding: 5px 10px;
+                color: white;
+                font-size: 25px;
+            }
+            p{
+                padding: 5px 10px;
+                color: white;
+            }
+        }
+
+
+
+
+    }
+}

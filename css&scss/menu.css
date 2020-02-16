@@ -1,0 +1,96 @@
+body {
+  overflow: hidden;
+}
+
+body nav.menu_ {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background: #e98120;
+}
+
+body nav.menu_ .search_ {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #c7b5a4;
+}
+
+body nav.menu_ .search_:hover {
+  background: rgba(199, 181, 164, 0);
+}
+
+body nav.menu_ .search_:active {
+  background: #c7b5a4;
+}
+
+body nav.menu_ .search_ .search_input {
+  padding: 10px;
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+body nav.menu_ .search_ .search_input input {
+  width: 100%;
+  height: 25px;
+  padding: 3px;
+  border-radius: 5px;
+  outline: none;
+}
+
+body nav.menu_ .search_ svg {
+  cursor: pointer;
+}
+
+body nav.menu_ ul.portfolio_ {
+  width: 100%;
+  background-color: #ffa600;
+  overflow: auto;
+}
+
+body nav.menu_ ul.portfolio_ li {
+  width: 100%;
+  padding: 10px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body nav.menu_ ul.portfolio_ li:hover {
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ffcc6e;
+}
+
+body nav.menu_ ul.portfolio_ li a:visited {
+  color: black;
+}
+
+body nav.menu_ div.author_ {
+  width: 100%;
+  height: 200px;
+  padding: 15px;
+  margin-top: auto;
+  border-top: 2px solid white;
+}
+
+body nav.menu_ div.author_ h1 {
+  padding: 5px 10px;
+  color: white;
+  font-size: 25px;
+}
+
+body nav.menu_ div.author_ p {
+  padding: 5px 10px;
+  color: white;
+}
+/*# sourceMappingURL=menu.css.map */
