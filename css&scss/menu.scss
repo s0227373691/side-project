@@ -30,15 +30,11 @@ body {
                     padding: 3px;
                     border-radius: 5px;
                     outline: none;
-
-
                 }
-
             }
 
             svg {
                 cursor: pointer;
-
             }
 
         }
@@ -60,7 +56,6 @@ body {
                 }
 
                 a {
-
                     &:visited {
                         color: black;
                     }
@@ -84,9 +79,6 @@ body {
                 color: white;
             }
         }
-
-
-
-
+        
     }
 }
