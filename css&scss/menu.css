@@ -1,83 +1,48 @@
 body {
-  overflow: hidden;
+  display: flex;
+  flex-direction: row;
 }
 
-body nav.menu_ {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+body nav {
+  width: 350px;
   height: 100vh;
-  background: #e98120;
+  box-shadow: 0 0 20px #38343b;
+  background-color: #a09e9e;
 }
 
-body nav.menu_ .search_ {
-  display: flex;
-  align-items: center;
-  background: #c7b5a4;
-}
-
-body nav.menu_ .search_:hover {
-  background: rgba(199, 181, 164, 0);
-}
-
-body nav.menu_ .search_:active {
-  background: #c7b5a4;
-}
-
-body nav.menu_ .search_ .search_input {
-  padding: 10px;
-  flex: auto;
-}
-
-body nav.menu_ .search_ .search_input input {
+body nav div.search_ {
   width: 100%;
-  height: 25px;
-  padding: 3px;
-  border-radius: 5px;
-  outline: none;
-}
-
-body nav.menu_ .search_ svg {
-  cursor: pointer;
-}
-
-body nav.menu_ ul.portfolio_ {
-  width: 100%;
-  background-color: #ffa600;
-  overflow: auto;
-}
-
-body nav.menu_ ul.portfolio_ li {
-  width: 100%;
-  padding: 10px 10px;
+  padding: 10px 20px;
   box-sizing: border-box;
+  display: flex;
 }
 
-body nav.menu_ ul.portfolio_ li:hover {
+body nav div.search_ input {
+  flex: auto;
+  height: 20px;
+  padding: 5px;
+  font-size: 15px;
   border-radius: 5px;
-  cursor: pointer;
-  background-color: #ffcc6e;
 }
 
-body nav.menu_ ul.portfolio_ li a:visited {
-  color: black;
-}
-
-body nav.menu_ div.author_ {
+body nav ul.menu_ {
   width: 100%;
-  height: 200px;
-  padding: 15px;
-  margin-top: auto;
-  border-top: 2px solid white;
+  height: 300px;
 }
 
-body nav.menu_ div.author_ h1 {
-  padding: 5px 10px;
-  color: white;
-  font-size: 25px;
+body nav ul.menu_ li {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
 }
 
-body nav.menu_ div.author_ p {
-  padding: 5px 10px;
-  color: white;
+body nav ul.menu_ li:hover {
+  background-color: white;
+  border-radius: 5px;
+}
+
+body main {
+  flex: auto;
 }
