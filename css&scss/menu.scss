@@ -1,3 +1,4 @@
+$padding_aside: 20px; //導覽列左右內距設定
 
 body {
     display: flex;
@@ -8,10 +9,9 @@ body {
         box-shadow: 0 0 20px rgb(56, 52, 59);
         background-color: rgb(160, 158, 158);
     
-    
         div.search_ {
             width: 100%;
-            padding: 10px 20px;
+            padding: 10px $padding_aside;
             box-sizing: border-box;
             display: flex;
     
@@ -31,7 +31,7 @@ body {
     
             li {
                 width: 100%;
-                padding: 10px 20px;
+                padding: 10px $padding_aside;
                 font-size: 20px;
                 box-sizing: border-box;
                 cursor: pointer;
